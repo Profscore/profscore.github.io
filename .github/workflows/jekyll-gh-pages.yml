@@ -1,5 +1,18 @@
 _config.yml
+```
+title: My Portfolio
+description: A brief description of my portfolio
+url: (link unavailable)
+theme: minima
+```
 
+index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to My Portfolio</title>
+</head>
 <body>
   <header>
     <h1>Welcome to My Portfolio</h1>
@@ -7,37 +20,13 @@ _config.yml
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li_config.yml
-```
-title: My Personal Website
-description: A brief description of my website
-url: (link unavailable)
-theme: minima
-```
-
-(link unavailable)
-```
----
-layout: home
-title: Home
----
-
-Welcome to my personal website!
-
-This is a sample homepage.
-```
-
-_posts/2022-12-24-my-first-post.md
-```
----
-layout: post
-title: My First Post
-date: 2022-12-24
----
-
-This is my first blog post.
-
-I'm excited to share my thoughts and experiences with you!
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
 ```
 
 (link unavailable)
@@ -52,14 +41,15 @@ Hi, I'm [Your Name].
 I'm a [Your Profession/Student] with a passion for [Your Interests].
 ```
 
-This example includes:
+_posts/2022-12-24-my-first-post.md
+```
+---
+layout: post
+title: My First Post
+date: 2022-12-24
+---
 
-1. `_config.yml`: Configuration file for Jekyll settings.
-2. `(link unavailable)`: Homepage content.
-3. `_posts/2022-12-24-my-first-post.md`: Sample blog post.
-4. `(link unavailable)`: Sample "About" page.
+This is my first blog post.
 
-
-
-
-
+I'm excited to share my thoughts and experiences with you!
+```
